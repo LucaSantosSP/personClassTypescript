@@ -4,7 +4,7 @@ let person = new Person('Lucas', 'Beserra', 'Dos Santos', 22);
 
 const appDiv: HTMLElement = document.getElementById('app');
 appDiv.innerHTML = `
-<h1>Classe Person</h1>
+<h1>Classes com Typescript</h1>
 <h2>Nome completo: ${person.getFullName()}</h2>
 <h2>Nasceu no ano: ${person.getBirthdayYear()}</h2>
 <h3>Emails: </h3>
